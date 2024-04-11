@@ -1,0 +1,135 @@
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Strike&display=swap');
+
+/* Setting background color for the body */
+body {
+    background-color: antiquewhite;
+}
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the navigation bar */
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Styling the unordered list within the navigation */
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 36px;
+    background-color: black;
+    color: white;
+}
+
+/* Styling individual list items within the navigation */
+nav ul li {
+    padding: 0 12px;
+}
+
+/* Styling the brand/logo */
+.brand img {
+    width: 36px;
+    padding: 0 5px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+/* Styling the main container */
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bgg.jpg');
+}
+
+/* Styling the bottom section */
+.bottom {
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styling the playback control icons */
+.icons {
+    margin-top: 14px;
+}
+
+/* Styling the progress bar */
+#myprogressbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+/* Styling the container for song items */
+.songItemContainer {
+    margin-top: 74px;
+}
+
+/* Styling individual song items */
+.songItem {
+    height: 45px;
+    display: flex;
+    background-color: beige;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+/* Styling the cover image within song items */
+.songItem img {
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+/* Styling the timestamp within song items */
+.timestamp {
+    margin: 0 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling the play button icon within timestamp */
+.timestamp i {
+    cursor: pointer;
+}
+
+/* Styling the song information */
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styling the animated GIF within song information */
+.songinfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
